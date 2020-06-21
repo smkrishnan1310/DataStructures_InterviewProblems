@@ -1,4 +1,4 @@
-package edu.basics.ds;
+package edu.ds.linear;
 
 public class LinkedList<T> {
 

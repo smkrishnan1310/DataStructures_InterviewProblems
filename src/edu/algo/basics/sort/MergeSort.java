@@ -1,4 +1,4 @@
-package edu.basics.algo.sort;
+package edu.algo.basics.sort;
 
 public class MergeSort {
 
