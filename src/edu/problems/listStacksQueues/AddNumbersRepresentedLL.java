@@ -9,7 +9,7 @@ package edu.problems.listStacksQueues;
  * c = a+b=2204 List ans = 2->2->0->4->null
  * 
  */
-
+//SLNode = Singly ListNode
 class SLNode {
 	int data;
 	SLNode next;
