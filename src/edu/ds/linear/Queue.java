@@ -10,9 +10,11 @@ public class Queue<T> {
 		LNode<T> n = new LNode<>(data);
 		if (null == head)
 			head = tail = n;
-		tail.next = n;
-		n.prev = tail;
-		tail = n;
+		else {
+			tail.next = n;
+			n.prev = tail;
+			tail = n;
+		}
 		size++;
 	}
 
@@ -23,7 +25,7 @@ public class Queue<T> {
 		LNode<T> tmp = head;
 		T data = tmp.data;
 		head = head.next;
-		if (tail == head)
+		if (tail == tmp)
 			tail = null;
 		else
 			head.prev = null;
