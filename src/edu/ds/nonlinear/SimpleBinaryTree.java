@@ -13,11 +13,11 @@ import edu.ds.nonlinear.utils.Comparator;
 public class SimpleBinaryTree<T> {
 
 	int size;
-	TNode<T> root;
+	public TNode<T> root;
 
 	Comparator<T> comp;
 
-	SimpleBinaryTree(Comparator<T> comp) {
+	public SimpleBinaryTree(Comparator<T> comp) {
 		this.comp = comp;
 	}
 

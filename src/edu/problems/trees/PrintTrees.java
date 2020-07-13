@@ -1,4 +1,4 @@
-package edu.ds.nonlinear;
+package edu.problems.trees;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 import edu.ds.linear.Stack;
+import edu.ds.nonlinear.SimpleBinaryTree;
+import edu.ds.nonlinear.TNode;
 
 /**
  * Print Tree in below forms 1. Vertically 2. Spirally/ Zig-Zag
