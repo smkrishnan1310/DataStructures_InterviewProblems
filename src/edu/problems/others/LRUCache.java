@@ -6,6 +6,8 @@ import java.util.Map;
 /**
  * Implement LRU Cache without using LinkedHashMap and time complexity for get
  * and put methods in O(1)
+ * 
+ * For Synchronized LRU please refer SynchronizedLRUCache
  */
 
 /** LList - Custom Linked List structure to maintain data with key */
