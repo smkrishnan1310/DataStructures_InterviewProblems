@@ -9,7 +9,7 @@ public class LNode<T> {
 	LNode<T> next;
 	T data;
 
-	LNode(T data) {
+	public LNode(T data) {
 		this.data = data;
 	}
 

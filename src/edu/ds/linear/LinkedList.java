@@ -2,9 +2,9 @@ package edu.ds.linear;
 
 public class LinkedList<T> {
 
-	LNode<T> head = null;
-	LNode<T> tail = null;
-	int size = 0;
+	protected LNode<T> head = null;
+	protected LNode<T> tail = null;
+	protected int size = 0;
 
 	public void add(T data) {
 		LNode<T> n = new LNode<>(data);
