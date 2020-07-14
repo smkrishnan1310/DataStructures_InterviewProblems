@@ -5,14 +5,14 @@ DS and Algo From Basics along with frequent interview questions on it
  1. Sorting Algo (Merge & Quick) - https://github.com/smkrishnan1310/DataStructures_InterviewProblems/tree/master/src/edu/algo/basics/sort
  2. Max Subarray sum/ Kadane' Algorithm -  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/algo/basics/KadanesAlgorithm.java
  
-======================================================================================
+============================================================================
  
 # Data Structures:
 
   1.Linear: (List, Stack Queues) - https://github.com/smkrishnan1310/DataStructures_InterviewProblems/tree/master/src/edu/ds/linear 
   2.Non-Linear (Simple BST with BFS, DFS) - https://github.com/smkrishnan1310/DataStructures_InterviewProblems/tree/master/src/edu/ds/nonlinear
 
-======================================================================================
+============================================================================
 
 # Interview Questions:
 
