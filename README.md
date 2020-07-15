@@ -15,6 +15,9 @@ DS and Algo From Basics along with frequent interview questions on it
 ============================================================================
 
 # Interview Questions:
+# Arrays 1D
+ 1. Circular Bank -Program to find starting bank to visit all given banks in a circular fashion and reach back starting one
+    https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/arrays1d/CircularBank.java
 
 # Graphs or Matrix:
   1. Find number of Islands in a Matrix/ Connected Componest in a graph  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/graphsAndMatrix/Islands.java
