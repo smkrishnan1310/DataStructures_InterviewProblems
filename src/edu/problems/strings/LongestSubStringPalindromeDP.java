@@ -25,8 +25,9 @@ public class LongestSubStringPalindromeDP {
 	}
 
 	// Recursion
-	public String findByRecursion(String s, int st, int en, Set<String> set) {// Is used as memoize to avoid already
-																				// processed keys
+	public String findByRecursion(String s, int st, int en, Set<String> set) {
+		
+		// Set is used as memoize to avoid recalculation of already processed keys
 		String key = st + ":" + en;
 		if (st < en && !set.contains(key)) {
 			set.add(key);
