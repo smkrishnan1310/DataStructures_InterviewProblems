@@ -22,6 +22,10 @@ DS and Algo From Basics along with frequent interview questions on it
 # Graphs or Matrix:
   1. Find number of Islands in a Matrix/ Connected Componest in a graph  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/graphsAndMatrix/Islands.java
 
+# Strings:
+  1. Program to find Longest Subtring Palindrome in the given String (Iterative and Recursive approach --- O(n^2))  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/strings/LongestSubStringPalindromeDP.java
+  
+
 # LinkedList/ Stack/ Queues
   1. Add two numbers represented in the form of singly LinkedList
   https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/listStacksQueues/AddNumbersRepresentedLL.java
