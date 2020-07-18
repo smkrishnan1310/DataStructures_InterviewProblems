@@ -20,7 +20,9 @@ DS and Algo From Basics along with frequent interview questions on it
     https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/arrays1d/CircularBank.java
 
 # Graphs or Matrix:
-  1. Find number of Islands in a Matrix/ Connected Componest in a graph  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/graphsAndMatrix/Islands.java
+  1. Find number of Islands in a Matrix/ Connected Component in a graph  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/graphsAndMatrix/Islands.java
+  2. Dynamic Programming - Program to find Max Square filled with ones, present in the given Matrix https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/graphsAndMatrix/MaxSquareWithOnes.java
+  
 
 # Strings:
   1. Program to find Longest Subtring Palindrome in the given String (Iterative and Recursive approach --- O(n^2))  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/strings/LongestSubStringPalindromeDP.java
