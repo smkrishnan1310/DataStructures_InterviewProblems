@@ -37,7 +37,7 @@ DS and Algo From Basics along with frequent interview questions on it
   https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/listStacksQueues/LinkedListPalindrome.java
   
 # Trees
-  1. Print Binary Tree a) Vertically, b)Spirally/ in Zig-Zag Fashion
+  1. Print Binary Tree a) Vertically, b)Spirally/ in Zig-Zag Fashion, c) Diagonally
   https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/trees/PrintTrees.java
   
 # General

@@ -5,18 +5,47 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
+import edu.ds.linear.Queue;
 import edu.ds.linear.Stack;
 import edu.ds.nonlinear.SimpleBinaryTree;
 import edu.ds.nonlinear.TNode;
 
 /**
- * Print Tree in below forms 1. Vertically 2. Spirally/ Zig-Zag
+ * Print Tree in below forms 
+ * 
+ * 1. Vertically 
+ * 
+ * 2. Spirally/ Zig-Zag
+ * 
+ * 3. Diagonally
  * 
  * For BFS and DFS please refer methods in Simple Binary Tree
  * 
  */
 public class PrintTrees<T> {
 
+	// Method to print tree diagonally
+	public void printDiagonally(TNode<T> root) {
+		if (null != root) {
+			Map<Integer, List<T>> map = new HashMap<>();
+			printDiagonally(root, 0, map);
+			map.forEach((x, y) -> System.out.println(x+" : "+y));
+		}
+	}
+	
+	// Method to print tree diagonally
+	public void printDiagonally(TNode<T> root, int c, Map<Integer, List<T>> map) {
+		if (null != root) {
+			printDiagonally(root.left, c + 1, map);
+			printDiagonally(root.right, c, map);
+			List<T> list = map.get(c);
+			if (null == list)
+				list = new LinkedList<>();
+			list.add(root.data);
+			map.put(c, list);
+		}
+	}
+	
 	// Method to print tree vertically
 	public void printVertically(TNode<T> root) {
 		if (null != root) {
@@ -72,6 +101,7 @@ public class PrintTrees<T> {
 
 	public static void main(String[] args) {
 		int arr[] = { 5, 3, 1, 2, 4, 8, 6, 9, 7, 10, 0 };
+		
 		SimpleBinaryTree<Integer> tree = new SimpleBinaryTree<>((a, b) -> (b - a));
 		for (int i : arr)
 			tree.add(i);
@@ -85,6 +115,11 @@ public class PrintTrees<T> {
 		System.out.println("Print Trees Spirally/ ZigZag : ");
 		printer.printSpirally(tree.root);
 
+		
+		System.out.println("\n================");
+
+		System.out.println("Print Trees Diagonally : ");
+		printer.printDiagonally(tree.root);
 	}
 
 }
