@@ -2,7 +2,7 @@ package edu.problems.others;
 /**
  * Egg dropping problem - Dynamic programming 
  * 
- * Below is Basic for of solution using DP.
+ * Below is Basic form of solution using DP.
  * 
  * Time complexity = O(n ^2 * e)
  * space complexity = O(e*n)
@@ -40,8 +40,8 @@ public class EggDroppingDP {
 		 * If we are in Xth floor and if we drop then, We have two case 1. It will break
 		 * else 2. It will not break.
 		 * 
-		 * case 1: If egg broken, correct floor should be at between 0th and X-1 th floor
-		 * case 2: If Not broken, correct floor should be at between X+1 th and N th floor
+		 * case 1: If egg broken, correct floor should be at between 0th and X-1 th floor and we lost one egg so (e-1) eggs only available
+		 * case 2: If Not broken, correct floor should be at between X+1 th and N th floor 
 		 * 
 		 * Max of which we need to find so recurrence is
 		 * 
