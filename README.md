@@ -25,7 +25,7 @@ DS and Algo From Basics along with frequent interview questions on it
   
 
 # Strings:
-  1. Program to find Longest Subtring Palindrome in the given String (Iterative and Recursive approach --- O(n^2))  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/strings/LongestSubStringPalindromeDP.java
+  1. Program to find Longest Substring Palindrome in the given String (Iterative and Recursive approach --- O(n^2))  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/strings/LongestSubStringPalindromeDP.java
   
 
 # LinkedList/ Stack/ Queues
@@ -43,3 +43,5 @@ DS and Algo From Basics along with frequent interview questions on it
 # General
   1. Design and Implement LRU Cache without using LinkedHashMap and time complexity for get and put methods in O(1)
   https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/others/LRUCache.java
+  2. Egg Dropping Problem Dynamic programming approach
+  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/others/EggDroppingDP.java

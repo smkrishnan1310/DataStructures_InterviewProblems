@@ -1,4 +1,4 @@
-package edu.problems.others.dp;
+package edu.problems.others;
 /**
  * Egg dropping problem - Dynamic programming 
  * 

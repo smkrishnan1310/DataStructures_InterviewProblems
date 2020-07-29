@@ -8,7 +8,7 @@ package edu.problems.arrays1d;
  * with associated account balances and spend mentioned amount to travel to next
  * bank in a circular fashion and reaches bank to starting bank
  * 
- * 4 banks we have (b1, b2, b3, b4) connected cirularly
+ * 4 banks we have (b1, b2, b3, b4) connected circularly
  * 
  * if he/she starts at b2 and reaches back b2 after visiting all bank in
  * circular fashion(b2->b3->b4->b1->b2) with 0 or +ve balance then b2 is the
