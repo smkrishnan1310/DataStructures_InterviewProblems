@@ -45,3 +45,7 @@ DS and Algo From Basics along with frequent interview questions on it
   https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/others/LRUCache.java
   2. Egg Dropping Problem Dynamic programming approach
   https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/others/EggDroppingDP.java
+  3. AutoComplete or suggestion or phone directory search using Tries DS 
+  https://github.com/smkrishnan1310/DataStructures_InterviewProblems/blob/master/src/edu/problems/others/AutoCompleteUsingTries.java
+  
+  
